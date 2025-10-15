@@ -22,10 +22,7 @@ SearchEngine/
 ├── utils/                              # Utility modules
 │   ├── __init__.py                     # Package initialization
 │   ├── cosqa_dataset.py               # CoSQA dataset loading and processing
-│   ├── evaluation_metrics.py          # Evaluation metrics (Recall@K, MRR@K, NDCG@K)
 │   ├── compute_embeddings.py          # Embedding computation utilities
-│   ├── code_search_evaluator.py       # Code search evaluation utilities
-│   ├── display_search_results.py      # Search results display utilities
 │   └── load_documents.py              # Document loading utilities
 ├── cosqa-ft-all-MiniLM-L6-v2-*/       # Fine-tuned model directory
 │   ├── config.json                     # Model configuration
@@ -36,8 +33,6 @@ SearchEngine/
 │   └── cosqa/                         # CoSQA dataset cache
 ├── requirements.txt                    # Python dependencies
 ├── README.md                          # This file
-├── PROJECT_STRUCTURE.md               # Detailed project structure
-├── SETUP.md                          # Setup instructions
 └── venv/                             # Virtual environment (not tracked in git)
 ```
 
